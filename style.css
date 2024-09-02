@@ -5,6 +5,28 @@
     font-style: normal;
 }
 
+body {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(stretched-2950-1546-1148429.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .tb-container {
     display: flex;
     justify-content: center;
@@ -13,9 +35,13 @@
 }
 
 .title {
+    background-color: white;
+    padding: 15px;
+    border: solid black 3px;
+    border-radius: 5px;
     font-size: 48px;
     text-align: center;
-    color: #0D7DBF;
+    color: #000000;
     font-weight: bold;
     font-family: 'Simpsons';
 }
