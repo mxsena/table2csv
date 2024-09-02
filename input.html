@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table2csv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="tb-container">
+
+        <h1 class="title">TABLE2CSV</h1>
+
+        <table id="myTable" class="table">
+
+            <thead class="table__thead">
+
+                <tr class="table__thead__tr">
+                    <th class="table__thead__tr__th">Name</th>
+                    <th class="table__thead__tr__th">Age</th>
+                    <th class="table__thead__tr__th">Occupation</th>
+                    <th class="table__thead__tr__th">Location</th>
+                </tr>
+
+            </thead>
+
+            <tbody class="table__tbody">
+
+                <tr class="table__tbody__tr">
+                    <td class="table__tbody__tr__td">Homer Simpson</td>
+                    <td class="table__tbody__tr__td">39</td>
+                    <td class="table__tbody__tr__td">Nuclear Safety Inspector</td>
+                    <td class="table__tbody__tr__td">Springfield</td>
+                </tr>
+
+                <tr class="table__tbody__tr">
+                    <td class="table__tbody__tr__td">Marge Simpson</td>
+                    <td class="table__tbody__tr__td">36</td>
+                    <td class="table__tbody__tr__td">Housewife</td>
+                    <td class="table__tbody__tr__td">Springfield</td>
+                </tr>
+
+                <tr class="table__tbody__tr">
+                    <td class="table__tbody__tr__td">Bart Simpson</td>
+                    <td class="table__tbody__tr__td">10</td>
+                    <td class="table__tbody__tr__td">Student</td>
+                    <td class="table__tbody__tr__td">Springfield</td>
+                </tr>
+
+                <tr class="table__tbody__tr">
+                    <td class="table__tbody__tr__td">Lisa Simpson</td>
+                    <td class="table__tbody__tr__td">8</td>
+                    <td class="table__tbody__tr__td">Student</td>
+                    <td class="table__tbody__tr__td">Springfield</td>
+                </tr>
+
+                <tr class="table__tbody__tr">
+                    <td class="table__tbody__tr__td">Maggie Simpson</td>
+                    <td class="table__tbody__tr__td">1</td>
+                    <td class="table__tbody__tr__td">-</td>
+                    <td class="table__tbody__tr__td">Springfield</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <button onclick="downloadCSV()" class="button">Download CSV</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

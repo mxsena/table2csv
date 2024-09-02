@@ -1,0 +1,45 @@
+.tb-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.table,
+.table__thead__tr__th,
+.table__tbody__tr__td {
+    border: 1px solid black;
+}
+
+.table__thead,
+.table__tbody__tr__td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table__thead__tr__th,
+.table__tbody__tr__td {
+    text-align: center;
+}
+
+.table__thead__tr__th {
+    padding: 20px;
+    text-decoration: underline;
+    background-color: #6DD0F5;
+}
+
+.table__thead__tr__td {
+    
+}
