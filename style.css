@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Simpsons';
-    src: url('Simpsonsfont DEMO.otf') format('opentype');
+    src: url('Simpsonfont DEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,27 +9,29 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Simpsons';
     align-items: center;
 }
 
 .title {
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
-    color: #FED522;
+    color: #0D7DBF;
     font-weight: bold;
+    font-family: 'Simpsons';
 }
 
 .table {
     width: 100%;
     border-collapse: collapse;
     width: 80%;
+    font-family: Poppins;
+    margin: 30px;
 }
 
 .table,
 .table__thead__tr__th,
 .table__tbody__tr__td {
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .table__thead,
@@ -44,11 +46,49 @@
 }
 
 .table__thead__tr__th {
+    font-size: 28px;
     padding: 20px;
     text-decoration: underline;
     background-color: #6DD0F5;
 }
 
-.table__thead__tr__td {
+.table__thead__tr__th {
     background-color: #F15E30;
+    transition: 0.4s;
+}
+
+.table__thead__tr__th:hover {
+    background-color: #e64f21;
+    transition: 0.4s;
+}
+
+.table__tbody__tr__td {
+    background-color: rgb(240, 240, 240);
+    transition: 0.4s;
+}
+
+.table__tbody__tr__td:hover {
+    background-color: rgb(210, 210, 210);
+    transition: 0.4s;
+}
+
+.button {
+    padding: 10px;
+    font-family: Poppins;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.9s;
+    font-weight: bold;
+    border: solid black 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(0, 255, 85);
+    transition: 0.9s;
+    padding: 12px;
+    color: black;
 }
