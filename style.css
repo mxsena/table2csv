@@ -1,14 +1,23 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('Simpsonsfont DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .tb-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: Poppins;
+    font-family: 'Simpsons';
     align-items: center;
 }
 
 .title {
     font-size: 36px;
     text-align: center;
+    color: #FED522;
+    font-weight: bold;
 }
 
 .table {
@@ -41,5 +50,5 @@
 }
 
 .table__thead__tr__td {
-    
+    background-color: #F15E30;
 }
