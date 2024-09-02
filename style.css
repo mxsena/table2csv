@@ -104,6 +104,7 @@ body::before {
     color: black;
 }
 @media only screen and (max-width: 700px) {
+
     .table__thead__tr__th {
         font-size: 16px;
         padding: 10px;
@@ -118,5 +119,26 @@ body::before {
     }
     .table {
         margin: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .title {
+        font-size: 24px;
+    }
+    .table__thead__tr__th {
+        font-size: 16px;
+        padding: 2px;
+    }
+    .table__tbody__tr__td {
+        font-size: 11px;
+    }
+    .button {
+        padding: 7px;
+        font-size: 12px;
+
+    }
+    .table {
+        margin: 10px;
     }
   }
