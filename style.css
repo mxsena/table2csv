@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Simpsons';
-    src: url('Simpsonfont DEMO.otf') format('opentype');
+    src: url('assets/Simpsonfont DEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(stretched-2950-1546-1148429.jpg);
+    background-image: url(assets/stretched-2950-1546-1148429.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
