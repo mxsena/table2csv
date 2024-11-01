@@ -1,15 +1,17 @@
 @font-face {
     font-family: 'Simpsons';
-    src: url('assets/Simpsonfont DEMO.otf') format('opentype');
+    src: url('/src/assets/fonts/Simpsonfont\ DEMO.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     position: relative;
     overflow: hidden;
     margin: 0;
     height: 100vh;
 }
+
 body::before {
     content: "";
     position: absolute;
@@ -17,13 +19,14 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(assets/stretched-2950-1546-1148429.jpg);
+    background-image: url('/src/assets/images/stretched-2950-1546-1148429.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     opacity: 0.5;
     z-index: -1;
 }
+
 .tb-container {
     display: flex;
     justify-content: center;
