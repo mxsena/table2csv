@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
 </head>
 
-<body class="h-full w-full">
-    <div class="h-[600px] w-[800px] bg-gray-50">
-        <h1 class="title">TABLE 2 CSV</h1>
-        <table id="myTable" class="table">
+<body class="h-[100vh] w-full flex justify-center items-center">
+    <div class="h-[500px] w-[1200px] flex flex-col bg-gradient-to-r to-blue-600 from-blue-900 rounded-xl border-2 border-black bg-center p-10 text-white font-['Montserrat']">
+        <h1 class="text-center text-5xl font-bold mb-12">TABLE 2 CSV</h1>
+        <table id="myTable" class="table mb-20">
             <thead class="table__thead">
                 <tr class="table__thead__tr">
                     <th class="table__thead__tr__th">Name</th>
@@ -55,7 +55,7 @@
                 </tr>
             </tbody>
         </table>
-        <button onclick="downloadCSV()" class="button">DOWNLOAD CSV</button>
+        <button onclick="downloadCSV()" class="bg-slate-100 p-5 rounded-xl w-[400px] text-black font-bold text-2xl border-none hover:bg-gray-200">DOWNLOAD CSV</button>
     </div>
 
     <script src="https://cdn.tailwindcss.com"></script>
