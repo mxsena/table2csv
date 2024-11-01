@@ -1,4 +1,4 @@
-#TABLE 2 CSV
+# TABLE 2 CSV
 
 <img src="src/assets/images/screenshot.png" style="border-radius: 10px;">
 <hr>
