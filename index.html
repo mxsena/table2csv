@@ -10,57 +10,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="h-[100vh] w-full flex justify-center items-center bg-gray-600">
-    <div class="h-5/6 w-5/6 flex flex-col bg-white rounded-3xl border-none border-black bg-center 
-        p-10 text-gray-600 font-['Montserrat'] items-center text-sm">
-        <h1 class="text-center text-5xl font-bold mb-[5%] ">TABLE 2 CSV</h1>
+<body class="h-[100vh] w-full flex flex-col justify-between items-center bg-gray-600">
+    <div class="h-[560px] w-5/6 flex flex-col bg-white rounded-3xl mt-16 border-none border-black bg-center p-10 text-gray-600 font-['Montserrat'] items-center justify-center text-sm">
+        <h1 class="text-center text-4xl font-bold mb-[5%]">TABLE 2 CSV</h1>
         <table id="myTable" class="mb-[4%] w-4/5 text-center table-fixed font-medium">
             <thead>
                 <tr class="text-lg">
-                    <th class="border-4 border-gray-200 w-1/4 p-3">NAME</th>
-                    <th class="border-4 border-gray-200 w-1/4 p-3">AGE</th>
-                    <th class="border-4 border-gray-200 w-1/4 p-3">OCCUPATION</th>
-                    <th class="border-4 border-gray-200 w-1/4 p-3">LOCATION</th>
+                    <th class="border-4 border-gray-200 w-1/4 p-2">NAME</th>
+                    <th class="border-4 border-gray-200 w-1/4 p-2">AGE</th>
+                    <th class="border-4 border-gray-200 w-1/4 p-2">OCCUPATION</th>
+                    <th class="border-4 border-gray-200 w-1/4 p-2">LOCATION</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border-4 border-gray-200 p-3">Homer Simpson</td>
-                    <td class="border-4 border-gray-200 p-3">39</td>
-                    <td class="border-4 border-gray-200 p-3">Nuclear Safety Inspector</td>
-                    <td class="border-4 border-gray-200 p-3">Springfield</td>
+                    <td class="border-4 border-gray-200 p-2">Homer Simpson</td>
+                    <td class="border-4 border-gray-200 p-2">39</td>
+                    <td class="border-4 border-gray-200 p-2">Nuclear Safety Inspector</td>
+                    <td class="border-4 border-gray-200 p-2">Springfield</td>
                 </tr>
                 <tr>
-                    <td class="border-4 border-gray-200 p-3">Marge Simpson</td>
-                    <td class="border-4 border-gray-200 p-3">36</td>
-                    <td class="border-4 border-gray-200 p-3">Housewife</td>
-                    <td class="border-4 border-gray-200 p-3">Springfield</td>
+                    <td class="border-4 border-gray-200 p-2">Marge Simpson</td>
+                    <td class="border-4 border-gray-200 p-2">36</td>
+                    <td class="border-4 border-gray-200 p-2">Housewife</td>
+                    <td class="border-4 border-gray-200 p-2">Springfield</td>
                 </tr>
                 <tr class="">
-                    <td class="border-4 border-gray-200 p-3">Bart Simpson</td>
-                    <td class="border-4 border-gray-200 p-3">10</td>
-                    <td class="border-4 border-gray-200 p-3">Student</td>
-                    <td class="border-4 border-gray-200 p-3">Springfield</td>
+                    <td class="border-4 border-gray-200 p-2">Bart Simpson</td>
+                    <td class="border-4 border-gray-200 p-2">10</td>
+                    <td class="border-4 border-gray-200 p-2">Student</td>
+                    <td class="border-4 border-gray-200 p-2">Springfield</td>
                 </tr>
                 <tr class="">
-                    <td class="border-4 border-gray-200 p-3">Lisa Simpson</td>
-                    <td class="border-4 border-gray-200 p-3">8</td>
-                    <td class="border-4 border-gray-200 p-3">Student</td>
-                    <td class="border-4 border-gray-200 p-3">Springfield</td>
+                    <td class="border-4 border-gray-200 p-2">Lisa Simpson</td>
+                    <td class="border-4 border-gray-200 p-2">8</td>
+                    <td class="border-4 border-gray-200 p-2">Student</td>
+                    <td class="border-4 border-gray-200 p-2">Springfield</td>
                 </tr>
                 <tr class="">
-                    <td class="border-4 border-gray-200 p-3">Maggie Simpson</td>
-                    <td class="border-4 border-gray-200 p-3">1</td>
-                    <td class="border-4 border-gray-200 p-3">-</td>
-                    <td class="border-4 border-gray-200 p-3">Springfield</td>
+                    <td class="border-4 border-gray-200 p-2">Maggie Simpson</td>
+                    <td class="border-4 border-gray-200 p-2">1</td>
+                    <td class="border-4 border-gray-200 p-2">-</td>
+                    <td class="border-4 border-gray-200 p-2">Springfield</td>
                 </tr>
             </tbody>
         </table>
-        <button onclick="downloadCSV()" class="flex items-center justify-center w-[300px] bg-slate-100 p-5 rounded-full font-bold text-base border-2 border-gray-600 hover:bg-gray-200 gap-5">
+        <button onclick="downloadCSV()" class="flex items-center justify-center w-[300px] bg-slate-100 p-3 rounded-full font-bold text-base border-2 border-gray-600 hover:bg-gray-200 gap-5">
             <p>DOWNLOAD CSV</p>
             <img src="/src/assets/images/downloads.png" class=" w-4">
         </button>
     </div>
+    <footer class="text-white p-5 bg-slate-500 w-full text-center flex justify-center">
+        <p>Developed by <a href="https://github.com/mxsena" class="font-bold underline hover:text-gray-300">@mxsena</a></p> 
+    </footer>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/src/js/script.js"></script>
 </body>
